@@ -3,7 +3,7 @@ class Asciii < Formula
   url "https://github.com/ascii-dresden/asciii.git", :tag => "3.0.0"
 
   def install
-    system 'cargo install', '--git', 'https://github.com/ascii-dresden/asciii'
+    system 'cargo install'
   end
 
   test do
