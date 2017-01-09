@@ -1,8 +1,6 @@
 class Asciii < Formula
   homepage "https://github.com/ascii-dresden/asciii"
-  url "https://github.com/ascii-dresden/asciii.git", :tag => "3.0.0"
-
-  depends_on 'cargo'
+  url "https://github.com/ascii-dresden/asciii.git"
 
   def install
     system 'cargo install', '--git', 'https://github.com/ascii-dresden/asciii'
