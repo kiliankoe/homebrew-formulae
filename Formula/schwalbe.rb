@@ -1,7 +1,7 @@
 class Schwalbe < Formula
   homepage "https://github.com/kiliankoe/schwalbe"
-  url "https://github.com/kiliankoe/schwalbe/releases/download/0.2.0/schwalbe"
-  sha256 "5acd2dc513853d3dd0224313deef174f9ea5e76a9d463b205c0a48a4a74a54fe"
+  url "https://github.com/kiliankoe/schwalbe/releases/download/0.3.0/schwalbe"
+  sha256 "3fbcebc59bc1418e9a605d44da2ccf30dc699830354b1e49ffc60b4a48424184"
 
   def install
     bin.install "schwalbe"
