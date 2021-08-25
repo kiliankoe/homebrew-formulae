@@ -1,7 +1,7 @@
 class SwiftOutdated < Formula
   desc "Check for outdated Swift package manager dependencies"
   homepage "https://github.com/kiliankoe/swift-outdated"
-  url "https://github.com/kiliankoe/swift-outdated.git", :tag => "0.3.1"
+  url "https://github.com/kiliankoe/swift-outdated.git", :tag => "0.3.2"
   head "https://github.com/kiliankoe/swift-outdated.git"
 
   depends_on :xcode => ["12.0", :build]
